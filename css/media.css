@@ -1,0 +1,15 @@
+:root {
+  --white-color: #FFFFFF;
+  --black-white: #FFFFFE;
+  --black-color: #000000;
+  --big-stone: #17304C;
+  --nile-blue: #1A385A;
+  --ming: #356A90;
+  --casper: #AEC3D3;
+}
+
+
+
+@media (hover:hover) {}
+
+@media (max-width: 1200px) {}
