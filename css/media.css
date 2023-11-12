@@ -1,15 +1,20 @@
 :root {
   --white-color: #FFFFFF;
-  --black-white: #FFFFFE;
   --black-color: #000000;
-  --big-stone: #17304C;
-  --nile-blue: #1A385A;
-  --ming: #356A90;
-  --casper: #AEC3D3;
+  --midnight: #012245;
+  --malibu: #55CBFF;
+  --azure-radiance: #01A4FF;
+  --alto: #D5D5D5;
 }
 
 
 
-@media (hover:hover) {}
+@media (hover:hover) {
+
+  /* .about-us__list-item:hover {
+    border-bottom: 1px solid var(--malibu);
+  } */
+
+}
 
 @media (max-width: 1200px) {}
