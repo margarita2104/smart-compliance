@@ -334,8 +334,7 @@ textarea, select {
 
 .accordion {
     display: inline-block;
-    /* width: 80%; */
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 
