@@ -310,6 +310,77 @@ textarea, select {
     line-height: normal;
 }
 
+/* news & events */
+
+.swiper {
+    width: 100%;
+    height: 600px;
+}
+
+.swiper-slide {
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-1 {
+    background-image: url(../img/slider-1.jpg);
+}
+
+.slide-2 {
+    background-image: url(../img/slider-2.jpg);
+}
+
+.slide-3 {
+    background-image: url(../img/slider-3.jpg);
+}
+
+.slide-4 {
+    background-image: url(../img/slider-4.jpg);
+}
+
+.swiper__content {
+    position: absolute;
+    padding: 40px 100px;
+    padding-right: 0;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    background-color: rgba(1, 34, 69, .6);
+}
+
+.swiper__section-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: var(--azure-radiance);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.swiper__heading {
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.swiper__link {
+    color: var(--white-color);
+    font-family: 'PTRootUIWebBold', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+
+
+
 
 /* work-steps */
 
@@ -492,7 +563,7 @@ textarea, select {
 .footer__list {
     text-align: end;
     font-family: 'PTRootUIWebBold', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

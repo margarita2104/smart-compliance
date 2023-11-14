@@ -1,3 +1,5 @@
+// accordion
+
 document.addEventListener("DOMContentLoaded", function () {
   const buttons = document.querySelectorAll(".accordion-button");
   const panels = document.querySelectorAll(".accordion-panel");
@@ -23,4 +25,28 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+});
+
+// swiper
+
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  effect: "fade",
+  speed: 300,
+  autoplay: {
+    delay: 5000,
+  },
+
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
 });
