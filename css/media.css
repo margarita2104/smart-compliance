@@ -5,16 +5,49 @@
   --malibu: #55CBFF;
   --azure-radiance: #01A4FF;
   --alto: #D5D5D5;
+  --venice-blue: #04597B;
+  --cerulean: #02ADF2;
+  --black-pearl: #040B1F;
+  --blue-ribbon: #016FFF;
+
 }
 
 
 
 @media (hover:hover) {
 
-  /* .about-us__list-item:hover {
+  .nav__link:hover:not(:active) {
     border-bottom: 1px solid var(--malibu);
-  } */
+  }
+
+  .btn:hover:not(:active) {
+    background-color: var(--malibu);
+  }
+
+  .accordion-button:hover:not(:active) {
+    background-color: var(--azure-radiance);
+    color: var(--white-color);
+  }
+
+  .swiper__section-link:hover {
+    color: var(--white-color);
+  }
+
+  .swiper__link:hover:not(:active) {
+    border-bottom: 1px solid var(--malibu);
+  }
+
+  .address__link:hover:not(:active) {
+    color: var(--malibu);
+  }
 
 }
 
-@media (max-width: 1200px) {}
+@media (max-width: 1810px) {
+
+  .header__form-submit {
+    margin-left: -23%;
+
+  }
+
+}

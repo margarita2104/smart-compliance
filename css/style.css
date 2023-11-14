@@ -114,6 +114,8 @@ textarea, select {
     --alto: #D5D5D5;
     --venice-blue: #04597B;
     --cerulean: #02ADF2;
+    --black-pearl: #040B1F;
+    --blue-ribbon: #016FFF;
 }
 
 .container {
@@ -153,6 +155,18 @@ textarea, select {
     line-height: normal;
 }
 
+.btn {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:focus-visible {
+    background-color: var(--blue-ribbon);
+}
+
+.btn:active {
+    background-color: var(--blue-ribbon);
+}
+
 /* header */
 
 .header {
@@ -169,6 +183,7 @@ textarea, select {
 }
 
 .header__logo {
+    outline: none;
     margin-right: auto;
 }
 
@@ -178,6 +193,20 @@ textarea, select {
 
 .nav__item:not(:last-child) {
     margin-right: 40px;
+}
+
+.nav__link {
+    outline: none;
+    padding-bottom: 2px;
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav__link:focus-visible {
+    color: var(--azure-radiance);
+}
+
+.nav__link:active {
+    color: var(--azure-radiance);
 }
 
 .subscription-form {
@@ -205,7 +234,7 @@ textarea, select {
 
 .header__form-submit {
     position: absolute;
-    margin-left: -30px;
+    margin-left: -3%;
     padding: 9px 25px;
     border-radius: 10px;
     background: var(--azure-radiance);
@@ -216,8 +245,8 @@ textarea, select {
     line-height: normal;
     color: var(--white-color);
     cursor: pointer;
+    outline: none;
 }
-
 
 
 /* hero  */
@@ -227,6 +256,7 @@ textarea, select {
     background-image: url(../img/hero__background.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--black-pearl);
 }
 
 
@@ -308,6 +338,7 @@ textarea, select {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    outline: none;
 }
 
 /* news & events */
@@ -360,7 +391,18 @@ textarea, select {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    outline: none;
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
 }
+
+.swiper__section-link:focus-visible {
+    color: var(--blue-ribbon);
+}
+
+.swiper__section-link:active {
+    color: var(--blue-ribbon);
+}
+
 
 .swiper__heading {
     color: var(--white-color);
@@ -368,6 +410,7 @@ textarea, select {
 }
 
 .swiper__link {
+    padding-bottom: 2px;
     color: var(--white-color);
     font-family: 'PTRootUIWebBold', sans-serif;
     font-size: 20px;
@@ -375,9 +418,17 @@ textarea, select {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-
+    outline: none;
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+.swiper__link:focus-visible {
+    color: var(--azure-radiance);
+}
+
+.swiper__link:active {
+    color: var(--azure-radiance);
+}
 
 
 
@@ -457,6 +508,17 @@ textarea, select {
     outline: none;
     cursor: pointer;
     width: 100%;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.accordion-button:focus {
+    background-color: var(--azure-radiance);
+    color: var(--white-color);
+}
+
+.accordion-button:active {
+    background-color: var(--malibu);
+    color: var(--white-color);
 }
 
 .arrow {
@@ -510,6 +572,22 @@ textarea, select {
     background-color: var(--azure-radiance);
 }
 
+.footer__form-submit {
+    position: absolute;
+    margin-left: -30px;
+    padding: 9px 25px;
+    border-radius: 10px;
+    background: var(--azure-radiance);
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--white-color);
+    cursor: pointer;
+    outline: none;
+}
+
 
 /* footer */
 
@@ -519,6 +597,10 @@ textarea, select {
     background-image: url(../img/footer__background.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.footer__logo {
+    outline: none;
 }
 
 .logo-wrapper {
@@ -533,6 +615,19 @@ textarea, select {
     margin-bottom: 15px;
 }
 
+.address__link {
+    outline: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.address__link:focus-visible {
+    color: var(--malibu);
+}
+
+.address__link:active {
+    color: var(--malibu);
+}
+
 .address__link:not(:last-child) {
     margin-bottom: 15px;
 }
@@ -542,7 +637,6 @@ textarea, select {
 }
 
 .footer__descr {
-    font-family: 'PTRootUIWebBold', sans-serif;
     color: var(--white-color);
     font-size: 16px;
     font-style: normal;
@@ -552,7 +646,6 @@ textarea, select {
 
 .footer__address {
     flex-direction: column;
-    font-family: 'PTRootUIWebBold', sans-serif;
     color: var(--white-color);
     font-size: 16px;
     font-style: normal;
@@ -562,7 +655,6 @@ textarea, select {
 
 .footer__list {
     text-align: end;
-    font-family: 'PTRootUIWebBold', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
