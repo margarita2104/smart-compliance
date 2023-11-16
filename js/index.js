@@ -33,10 +33,10 @@ const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
   effect: "fade",
-  speed: 300,
-  autoplay: {
-    delay: 5000,
-  },
+  // speed: 300,
+  // autoplay: {
+  //   delay: 5000,
+  // },
 
   pagination: {
     el: ".swiper-pagination",
@@ -46,4 +46,14 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+});
+
+// burger 
+
+const burgerButton = document.querySelector('.burger');
+const navList = document.querySelector('.header__nav-list');
+
+burgerButton.addEventListener('click', () => {
+    navList.classList.toggle('header__nav-list--active');
+    burgerButton.classList.toggle('burger--active');
 });

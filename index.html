@@ -22,13 +22,13 @@
     <header class="header">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-3">
+                <div class="col-xl-3 col-6">
                     <a href="#" class="header__logo">
                         <img src="./img/logo-white.svg" alt="Logo SMART-compliance">
                     </a>
                 </div>
-                <div class="col-5">
-                    <nav class="header__nav flex">
+                <div class="col-xl-9 col-6 flex header__content">
+                    <nav class="header__nav">
                         <ul class="header__nav-list list-reset flex">
                             <li class="nav__item">
                                 <a href="#" class="nav__link">
@@ -60,19 +60,37 @@
                                     Contact
                                 </a>
                             </li>
+                            <li class="nav__item">
+                                <a href="http://eepurl.com/ioqyWo" target="_blank" class="subscription-link__header-nav">Subscribe to our newsletter</a>
+                            </li>
                         </ul>
                     </nav>
 
+                    <a href="http://eepurl.com/ioqyWo" target="_blank" class="subscription-link__header">Subscribe to our newsletter</a>
+
+
+                    <button class="btn-reset burger" aria-label="Burger menu">
+                        <span class="burger__line"> </span>
+                        <span class="burger__line"> </span>
+                        <span class="burger__line"> </span>
+                    </button>
+
                 </div>
-                <div class="col-4">
+
+
+
+
+                <!-- <div class="col-4">
                     <div class="subscription-form flex">
-                        <form class="header__form" action="#" method="post">
+                        <form class="header__form" action="https://smart-compliance.us21.list-manage.com/subscribe/post?u=bc17ce4f71962085d51bc882e&amp;id=74a5c828cb&amp;f_id=00fee2e6f0" method="post">
                             <label class="header__form-label" for="email">Subscribe to&nbsp;our newsletter</label>
-                            <input class="header__form-input" type="email" id="email" name="email" placeholder="Email" >
+                            <input class="header__form-input" type="email" id="email" name="email" placeholder="Email">
                             <button class="header__form-submit btn" type="submit" value="Subscribe">Subscribe</button>
                         </form>
                     </div>
                 </div>
+                 -->
+
             </div>
         </div>
     </header>
@@ -81,7 +99,7 @@
 
             <div class="container hero__container">
                 <div class="row">
-                    <div class="col-md-4 hero__content">
+                    <div class="col-xl-4 col-md-6 col-sm-7 hero__content">
                         <div class="hero__info flex">
                             <h1 class="hero__heading">
                                 Empowering Growth Through Compliance &amp;&nbsp;Efficiency
@@ -101,7 +119,7 @@
                     Tell&nbsp;us about your business
                 </h2>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-12">
                         <h3 class="about-us__subtitle subtitle__global">
                             Take the right steps from the start
                         </h3>
@@ -133,7 +151,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-12">
                         <div class="calendly-container">
 
                             <h3 class="calendly__subtitle about-us__subtitle subtitle__global">
@@ -192,7 +210,6 @@
 
                             </div>
                             <div class="swiper-pagination"></div>
-
                             <div class="swiper-button-prev"></div>
                             <div class="swiper-button-next"></div>
 
@@ -208,7 +225,7 @@
                     What we&nbsp;will&nbsp;do?
                 </h2>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <div class="steps-wrapper step1 flex">
                             <svg class="steps__icon" fill="#FFFFFF" width="50px" height="50px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" id="Data_x5F_analysis" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <g>
@@ -235,7 +252,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <div class="steps-wrapper step2 flex">
                             <svg class="steps__icon" version="1.1" id="CHECKLIST" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px" viewBox="0 0 1800 1800" enable-background="new 0 0 1800 1800" xml:space="preserve">
                                 <g>
@@ -272,7 +289,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-12">
                         <div class="steps-wrapper step3 flex">
                             <svg class="steps__icon" fill="#FFFFFF" width="50px" height="50px" viewBox="0 0 36 36" version="1.1" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <path d="M18,2a15.92,15.92,0,0,0-4.25.59l.77,1.86a14.07,14.07,0,1,1-10,10l-1.86-.78A16,16,0,1,0,18,2Z" class="clr-i-outline clr-i-outline-path-1"></path>
@@ -477,54 +494,63 @@
                     Learn more
                 </h2>
                 <div class="row">
-                    <div class="col-4 learn-more__wrapper">
-                        <h3 class="learn__heading subtitle__global">
-                            Content corner
-                        </h3>
-                        <p class="learn__descr descr__global">
-                            Visit our blog for latest news &amp;&nbsp;insights
-                        </p>
-                        <button class="btn-reset learn__btn btn">
-                            See more
-                        </button>
+                    <div class="col-lg-4 col-md-12 ">
+                        <div class="learn-more__wrapper learn-more__wrapper-1">
+                            <h3 class="learn__heading subtitle__global">
+                                Content corner
+                            </h3>
+                            <p class="learn__descr descr__global">
+                                Visit our blog for latest news &amp;&nbsp;insights
+                            </p>
+                            <button class="btn-reset learn__btn btn">
+                                See more
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-4 learn-more__wrapper">
-                        <h3 class="learn__heading subtitle__global">
-                            Educational portal
-                        </h3>
-                        <p class="learn__descr descr__global">
-                            Stay informed about our webinars, educational materials, and special offers
-                        </p>
-                        <button class="btn-reset learn__btn btn">
-                            See more
-                        </button>
+                    <div class="col-lg-4 col-md-12 ">
+                        <div class="learn-more__wrapper learn-more__wrapper-2">
+                            <h3 class="learn__heading subtitle__global">
+                                Educational portal
+                            </h3>
+                            <p class="learn__descr descr__global">
+                                Stay informed about our webinars, educational materials, and special offers
+                            </p>
+                            <button class="btn-reset learn__btn btn">
+                                See more
+                            </button>
+                        </div>
                     </div>
-                    <div class="col-4 learn-more__wrapper">
-                        <h3 class="learn__heading subtitle__global">
-                            Events
-                        </h3>
-                        <p class="learn__descr descr__global">
-                            Explore the latest events and find out where we&rsquo;re making waves in&nbsp;the industry </p>
-                        <button class="btn-reset learn__btn btn">
-                            See more
-                        </button>
+                    <div class="col-lg-4 col-md-12 ">
+                        <div class="learn-more__wrapper learn-more__wrapper-3 ">
+                            <h3 class="learn__heading subtitle__global">
+                                Events
+                            </h3>
+                            <p class="learn__descr descr__global">
+                                Explore the latest events and find out where we&rsquo;re making waves in&nbsp;the industry </p>
+                            <button class="btn-reset learn__btn btn">
+                                See more
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="subscribe section__global">
             <div class="container">
                 <h2 class="subscribe__heading heading__global">
-                    Subscribe to our newsletter
+                    <a href="http://eepurl.com/ioqyWo" target="_blank" class="subscribe__link">
+                        Subscribe to our newsletter
+                    </a>
                 </h2>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-12">
-                        <form action="#" method="post">
+                        <form action="https://smart-compliance.us21.list-manage.com/subscribe/post" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form">
                             <input class="header__form-input footer__form-input" type="email" id="email" name="email" placeholder="Email" required>
                             <button class="footer__form-submit btn" type="submit" value="Subscribe">Subscribe</button>
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <footer class="footer">
@@ -611,6 +637,9 @@
         </footer>
 
     </main>
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
 

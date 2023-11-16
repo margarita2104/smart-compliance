@@ -100,7 +100,7 @@ textarea, select {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 95%;
 }
 
 
@@ -118,9 +118,9 @@ textarea, select {
     --blue-ribbon: #016FFF;
 }
 
-.container {
+/* .container {
     max-width: 1625px;
-}
+} */
 
 
 /* global */
@@ -187,8 +187,9 @@ textarea, select {
     margin-right: auto;
 }
 
-.header__nav {
-    justify-content: end;
+.header__content {
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav__item:not(:last-child) {
@@ -209,6 +210,39 @@ textarea, select {
     color: var(--azure-radiance);
 }
 
+.subscribtion-header__row {
+    text-align: end;
+}
+
+.subscription-link__header {
+    padding: 10px 15px;
+    border: 1px solid var(--white-color);
+    border-radius: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.subscription-link__header:focus-visible {
+    border-color: var(--blue-ribbon);
+    color: var(--blue-ribbon);
+}
+
+.subscription-link__header:active {
+    border-color: var(--blue-ribbon);
+    color: var(--blue-ribbon);
+}
+
+.burger {
+    display: none;
+}
+
+.subscription-link__header-nav {
+    display: none;
+}
+
+
+
+/* 
 .subscription-form {
     position: relative;
     justify-content: end;
@@ -246,7 +280,7 @@ textarea, select {
     color: var(--white-color);
     cursor: pointer;
     outline: none;
-}
+} */
 
 
 /* hero  */
@@ -550,14 +584,19 @@ textarea, select {
 /* learn-more */
 
 .learn-more__wrapper {
-    min-height: 180px;
+    padding: 30px 30px;
     display: flex;
     flex-direction: column;
+    width: 400px;
+    min-height: 280px;
     align-items: baseline;
+    border: 1px solid var(--azure-radiance);
+    border-radius: 16px;
 }
 
 .learn__descr {
     margin-bottom: auto;
+    width: 70%;
 }
 
 .learn__btn {
@@ -572,7 +611,29 @@ textarea, select {
     background-color: var(--azure-radiance);
 }
 
-.footer__form-submit {
+.subscribe__heading {
+    text-align: center;
+}
+
+.subscribe__link {
+    padding: 15px 30px;
+    border: 2px solid var(--midnight);
+    border-radius: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.subscribe__link:focus-visible {
+    border-color: var(--blue-ribbon);
+    color: var(--blue-ribbon);
+}
+
+.subscribe__link:active {
+    border-color: var(--blue-ribbon);
+    color: var(--blue-ribbon);
+}
+
+/* .footer__form-submit {
     position: absolute;
     margin-left: -30px;
     padding: 9px 25px;
@@ -586,7 +647,7 @@ textarea, select {
     color: var(--white-color);
     cursor: pointer;
     outline: none;
-}
+} */
 
 
 /* footer */
