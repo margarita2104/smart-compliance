@@ -130,7 +130,7 @@ textarea, select {
 }
 
 .heading__global {
-    font-family: 'PTRootUIWebBold', sans-serif;
+    font-family: 'PTRootUIWebBold', 'PT Root UI', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -140,7 +140,7 @@ textarea, select {
 }
 
 .subtitle__global {
-    font-family: 'PTRootUIWebBold', sans-serif;
+    font-family: 'PTRootUIWebBold', 'PT Root UI', sans-serif;
     margin-bottom: 20px;
     font-size: 20px;
     font-style: normal;
@@ -306,7 +306,7 @@ textarea, select {
     border-bottom: 0.5px solid var(--malibu);
     font-size: 36px;
     font-style: normal;
-    font-family: 'PTRootUIWebBold', sans-serif;
+    font-family: 'PTRootUIWebBold', 'PT Root UI', sans-serif;
     font-weight: 700;
     line-height: normal;
     color: var(--white-color);
@@ -368,7 +368,7 @@ textarea, select {
     background-color: var(--azure-radiance);
     border-radius: 16px;
     color: var(--white-color);
-    font-family: 'PTRootUIWebBold', sans-serif;
+    font-family: 'PTRootUIWebBold', 'PT Root UI', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -460,7 +460,7 @@ textarea, select {
 .swiper__link {
     padding-bottom: 2px;
     color: var(--white-color);
-    font-family: 'PTRootUIWebBold', sans-serif;
+    font-family: 'PTRootUIWebBold', 'PT Root UI', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
