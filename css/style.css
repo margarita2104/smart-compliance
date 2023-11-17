@@ -438,6 +438,19 @@ textarea, select {
     color: var(--blue-ribbon);
 }
 
+.swiper__heading-link {
+    outline: none;
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.swiper__heading-link:focus-visible {
+    color: var(--azure-radiance);
+}
+
+.swiper__heading-link:active {
+    color: var(--azure-radiance);
+}
+
 
 .swiper__heading {
     color: var(--white-color);

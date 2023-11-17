@@ -51,6 +51,10 @@
     color: var(--white-color);
   }
 
+  .swiper__heading-link:hover:not(:active) {
+    border-bottom: 1px solid var(--malibu);
+  }
+
   .swiper__link:hover:not(:active) {
     border-bottom: 1px solid var(--malibu);
   }
