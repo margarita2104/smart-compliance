@@ -364,8 +364,21 @@
 
 @media (max-width: 520px) {
 
+  .calendly-container {
+    padding: 40px 0 60px 30px;
+  }
+
+  .calendly__subtitle {
+    margin-bottom: 100px;
+  }
+
+  .calendly__link {
+    padding: 17px 28px;
+    font-size: 14px;
+  }
+
   .swiper__content {
-    width: 92%;
+    width: 88%;
   }
 
   .swiper__heading {
@@ -386,6 +399,11 @@
 
   .learn-more__wrapper {
     width: 100%;
+  }
+
+  .learn__btn {
+    padding: 15px 35px;
+    font-size: 14px;
   }
 
   .subscribe__link {
