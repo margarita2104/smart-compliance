@@ -61,10 +61,21 @@
 
 }
 
+@media (max-width: 1620px) {
+  .calendly-container {
+    width: 80%;
+  }
+}
+
+
 @media (max-width: 1467px) {
 
   .steps-wrapper {
     min-height: 312px;
+  }
+
+  .calendly-container {
+    width: 90%;
   }
 
 }
@@ -170,6 +181,10 @@
     transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
   }
 
+  .calendly-container {
+    width: 100%;
+  }
+
   .swiper__content {
     padding: 40px 30px;
   }
@@ -207,7 +222,8 @@
   }
 
   .steps-wrapper {
-    min-height: 280px;
+    min-height: 325px;
+    width: 50%;
     margin-bottom: 50px;
   }
 
@@ -265,6 +281,14 @@
     font-size: 14px;
   }
 
+  .accordion-button {
+    font-size: 16px;
+  }
+
+  .panel__descr {
+    font-size: 14px;
+  }
+
   .calendly__link {
     font-size: 16px;
   }
@@ -281,31 +305,97 @@
     width: 55%;
   }
 
-  @media (max-width: 630px) {
-
-    .subscription-link__header {
-      display: none;
-    }
-
-    .subscription-link__header-nav {
-      display: block;
-      padding: 10px 15px;
-      border: 1px solid var(--white-color);
-      border-radius: 16px;
-      outline: none;
-      transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
-    }
-
-    .subscription-link__heade-nav:focus-visible {
-      border-color: var(--blue-ribbon);
-      color: var(--blue-ribbon);
-    }
-
-    .subscription-link__header-nav:active {
-      border-color: var(--blue-ribbon);
-      color: var(--blue-ribbon);
-    }
-
+  .footer__list {
+    display: flex;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+    border-bottom: 0.5px solid var(--malibu);
+    flex-wrap: wrap;
+    justify-content: left;
   }
+
+  .footer__item:not(:last-child) {
+    margin-right: 22px;
+  }
+
+}
+
+
+
+@media (max-width: 630px) {
+
+  .header__nav-list {
+    min-width: 100%;
+  }
+
+  .subscription-link__header {
+    display: none;
+  }
+
+  .subscription-link__header-nav {
+    display: block;
+    width: fit-content;
+    padding: 10px 15px;
+    border: 1px solid var(--white-color);
+    border-radius: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .subscription-link__heade-nav:focus-visible {
+    border-color: var(--blue-ribbon);
+    color: var(--blue-ribbon);
+  }
+
+  .subscription-link__header-nav:active {
+    border-color: var(--blue-ribbon);
+    color: var(--blue-ribbon);
+  }
+
+  .calendly-container {
+    width: 100%;
+  }
+
+  .steps-wrapper {
+    width: 60%;
+  }
+
+}
+
+@media (max-width: 520px) {
+
+  .swiper__content {
+    width: 92%;
+  }
+
+  .swiper__heading {
+    font-size: 22px;
+  }
+
+  .swiper__section-link {
+    font-size: 14px;
+  }
+
+  .swiper__link {
+    font-size: 14px;
+  }
+
+  .steps-wrapper {
+    width: 100%;
+  }
+
+  .learn-more__wrapper {
+    width: 100%;
+  }
+
+  .subscribe__link {
+    padding: 10px 25px;
+  }
+
+  .subscribe__heading {
+    font-size: 20px;
+  }
+
+
 
 }
