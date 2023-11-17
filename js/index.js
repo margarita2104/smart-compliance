@@ -33,10 +33,10 @@ const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
   effect: "fade",
-  // speed: 300,
-  // autoplay: {
-  //   delay: 5000,
-  // },
+  speed: 300,
+  autoplay: {
+    delay: 5000,
+  },
 
   pagination: {
     el: ".swiper-pagination",

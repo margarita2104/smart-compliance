@@ -395,10 +395,20 @@
 
   .steps-wrapper {
     width: 100%;
+    min-height: 286px;
+  }
+
+  .learn-more-col {
+    display: flex;
+    justify-content: center;
   }
 
   .learn-more__wrapper {
-    width: 100%;
+    width: 76%;
+  }
+
+  .learn__descr {
+    width: 85%;
   }
 
   .learn__btn {
@@ -412,6 +422,8 @@
 
   .subscribe__heading {
     font-size: 20px;
+    display: flex;
+    justify-content: center;
   }
 
 
