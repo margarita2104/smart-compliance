@@ -478,9 +478,6 @@ textarea, select {
     color: var(--azure-radiance);
 }
 
-
-
-
 /* work-steps */
 
 .steps-wrapper {
@@ -647,23 +644,6 @@ textarea, select {
     color: var(--blue-ribbon);
 }
 
-/* .footer__form-submit {
-    position: absolute;
-    margin-left: -30px;
-    padding: 9px 25px;
-    border-radius: 10px;
-    background: var(--azure-radiance);
-    border: none;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    color: var(--white-color);
-    cursor: pointer;
-    outline: none;
-} */
-
-
 /* footer */
 
 .footer {
@@ -735,4 +715,45 @@ textarea, select {
     font-weight: 700;
     line-height: normal;
     color: var(--white-color);
+}
+
+/* about us */
+
+.pages__hero {
+    padding-bottom: 285px;
+}
+
+.meet-founder__descr {
+    margin-bottom: 15px;
+}
+
+.meet-founder_bold {
+    font-family: 'PTRootUIWebBold', 'PT Root UI', sans-serif;
+    font-weight: 700;
+}
+
+.meet-foounder__img {
+    border-radius: 16px;
+}
+
+.our-partners__heading {
+    margin-bottom: 100px;
+}
+
+.our-partners__wrapper {
+    width: 65%;
+}
+
+.our-partners__link {
+    outline: none;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.join-us {
+    padding-top: 0;
+}
+
+.join-us__subtitle {
+    margin-bottom: 60px;
 }
