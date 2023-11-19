@@ -772,6 +772,17 @@ textarea, select {
     margin-bottom: 60px;
 }
 
+.articles__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles-list {
+    /* align-items: center; */
+    justify-content: center;
+}
+
 .articles__item {
     width: calc((90% - (var(--gap) * 1)) / 4);
     margin-bottom: 30px;
