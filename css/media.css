@@ -241,11 +241,6 @@
 
 @media (max-width: 991px) {
 
-  .hero {
-    background-image: url(../img/hero__background-991.png);
-  }
-
-
   .about-us__list {
     margin-bottom: 50px;
   }
@@ -353,6 +348,10 @@
 
   .footer__item:not(:last-child) {
     margin-right: 22px;
+  }
+
+  .our-partners  {
+    margin-bottom: 0;
   }
 
   .our-partners__col {
