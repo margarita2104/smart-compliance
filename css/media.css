@@ -330,6 +330,33 @@
 
 }
 
+@media (max-width: 914px) {
+
+  .hero__info {
+    padding-top: 368px;
+  }
+
+  .hero__heading {
+    display: none;
+  }
+
+  .pages__heading {
+    display: block;
+  }
+
+  .hero__heading-sm {
+    display: block;
+    color: var(--midnight);
+  }
+
+  .about-us__heading {
+    display: none;
+  }
+
+
+
+}
+
 @media (max-width: 767px) {
 
   .header {

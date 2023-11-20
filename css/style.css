@@ -322,6 +322,10 @@ textarea, select {
     color: var(--white-color);
 }
 
+.hero__heading-sm {
+    display: none;
+}
+
 
 /* about-us */
 
