@@ -23,6 +23,10 @@
     background-color: var(--malibu);
   }
 
+  .learn__link:hover:not(:active) {
+    background-color: var(--malibu);
+  }
+
   .burger:hover .burger__line {
     background-color: var(--malibu);
   }
@@ -67,6 +71,11 @@
     filter: grayscale(0%);
   }
 
+  .blog-preview__link:hover {
+    background-color: var(--midnight);
+    color: var(--white-color);
+  }
+
 }
 
 @media (max-width: 1620px) {
@@ -87,11 +96,11 @@
 
   .articles__item:not(:nth-child(4n)) {
     margin-right: 0px;
-}
+  }
 
   .articles__item:not(:nth-child(3n)) {
     margin-right: 30px;
-}
+  }
 
 }
 
@@ -245,25 +254,39 @@
 
 @media (max-width: 1110px) {
 
-  .hero {
-    background-image: url(../img/hero__background-1110.png);
-  }
-
   .articles__item {
     width: calc((93% - (var(--gap) * 1)) / 2);
   }
 
   .articles__item:not(:nth-child(3n)) {
     margin-right: 0px;
-}
+  }
 
   .articles__item:not(:nth-child(2n)) {
     margin-right: 30px;
-}
+  }
 
 }
 
 @media (max-width: 991px) {
+
+  .hero {
+    background-image: url(../img/hero__background-991.png);
+  }
+
+  .hero__info {
+    padding-top: 247px;
+    padding-bottom: 0;
+  }
+
+  .hero__heading {
+    border-bottom: 0;
+  }
+
+  .hero__descr {
+    display: none;
+  }
+
 
   .about-us__list {
     margin-bottom: 50px;
@@ -311,10 +334,6 @@
 
   .header {
     font-size: 14px;
-  }
-
-  .hero {
-    background-image: url(../img/hero__background-767.png);
   }
 
   .hero__heading {
@@ -398,7 +417,7 @@
 
   .articles__item:not(:nth-child(2n)) {
     margin-right: 0;
-}
+  }
 
 }
 
@@ -450,6 +469,12 @@
 
 @media (max-width: 520px) {
 
+  .pages__hero {
+    justify-content: center;
+    padding-top: 400px;
+    padding-bottom: 0;
+  }
+
   .calendly-container {
     padding: 40px 0 60px 30px;
   }
@@ -497,7 +522,7 @@
     width: 85%;
   }
 
-  .learn__btn {
+  .learn__link {
     padding: 15px 35px;
     font-size: 14px;
   }
@@ -510,6 +535,14 @@
     font-size: 20px;
     display: flex;
     justify-content: center;
+  }
+
+}
+
+@media (max-width: 473px) {
+
+  .hero {
+    background-image: url(../img/hero__background-473.png);
   }
 
 }

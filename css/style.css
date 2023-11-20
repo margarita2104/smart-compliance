@@ -612,7 +612,7 @@ textarea, select {
     width: 70%;
 }
 
-.learn__btn {
+.learn__link {
     padding: 19px 50px;
     font-size: 16px;
     font-style: normal;
@@ -622,6 +622,16 @@ textarea, select {
     color: var(--white-color);
     border-radius: 16px;
     background-color: var(--azure-radiance);
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+.learn__link:focus-visible {
+    background-color: var(--blue-ribbon);
+}
+
+.learn__link:active {
+    background-color: var(--blue-ribbon);
 }
 
 .subscribe__heading {
@@ -719,10 +729,18 @@ textarea, select {
     color: var(--white-color);
 }
 
+/* pages */
+
+.pages__heading {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
 /* about us */
 
 .pages__hero {
-    padding-bottom: 285px;
+    padding-top: 380px;
+    padding-bottom: 20px;
 }
 
 .meet-founder__descr {
@@ -779,7 +797,6 @@ textarea, select {
 }
 
 .articles-list {
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -805,9 +822,20 @@ textarea, select {
     display: flex;
     flex-direction: column;
     position: relative;
+    outline: none;
     width: 100%;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     height: 100%;
+}
+
+.blog-preview__link:focus-visible {
+    background-color: var(--midnight);
+    color: var(--white-color);
+}
+
+.blog-preview__link:active {
+    background-color: var(--midnight);
+    color: var(--white-color);
 }
 
 .blog-preview__img {
@@ -841,4 +869,10 @@ textarea, select {
 
 .blog-preview__name {
     margin-bottom: 0;
+}
+
+/* blog page  */
+
+.blog__descr {
+    margin-bottom: 25px;
 }
