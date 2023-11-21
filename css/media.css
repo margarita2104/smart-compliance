@@ -67,6 +67,10 @@
     color: var(--malibu);
   }
 
+  .li__logo:hover:not(:active) path {
+    fill: var(--malibu);
+  }
+
   .our-partners__link:hover {
     filter: grayscale(0%);
   }
@@ -74,6 +78,14 @@
   .blog-preview__link:hover {
     background-color: var(--midnight);
     color: var(--white-color);
+  }
+
+  .blog__download:hover {
+    color: var(--azure-radiance);
+  }
+
+  .archive__link:hover {
+    border-bottom: 0.5px solid var(--malibu);
   }
 
 }
@@ -444,6 +456,14 @@
 
   .articles__item:not(:nth-child(2n)) {
     margin-right: 0;
+  }
+
+  .blog-preview__author {
+    margin-top: 40px;
+  }
+
+  .blog__wrapper {
+    margin-bottom: 40px;
   }
 
 }
