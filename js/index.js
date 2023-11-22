@@ -48,12 +48,12 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-// burger 
+// burger
 
-const burgerButton = document.querySelector('.burger');
-const navList = document.querySelector('.header__nav-list');
+const burgerButton = document.querySelector(".burger");
+const navList = document.querySelector(".header__nav-list");
 
-burgerButton.addEventListener('click', () => {
-    navList.classList.toggle('header__nav-list--active');
-    burgerButton.classList.toggle('burger--active');
+burgerButton.addEventListener("click", () => {
+  navList.classList.toggle("header__nav-list--active");
+  burgerButton.classList.toggle("burger--active");
 });

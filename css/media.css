@@ -88,6 +88,14 @@
     border-bottom: 0.5px solid var(--malibu);
   }
 
+  .educational-type__link:hover {
+    color: var(--white-color);
+  }
+
+  .educational__link:hover:not(:active) {
+    border-bottom: 1px solid var(--malibu);
+  }
+
 }
 
 @media (max-width: 1620px) {
@@ -464,6 +472,10 @@
 
   .blog__wrapper {
     margin-bottom: 40px;
+  }
+
+  .educational-portal__link {
+    margin-bottom: 50px;
   }
 
 }
