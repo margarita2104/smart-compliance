@@ -9,6 +9,7 @@
   --cerulean: #02ADF2;
   --black-pearl: #040B1F;
   --blue-ribbon: #016FFF;
+  --anakiwa: #ABE1FF;
 }
 
 
@@ -96,12 +97,39 @@
     border-bottom: 1px solid var(--malibu);
   }
 
+  .events-preview__link:hover {
+    background-color: var(--midnight);
+    color: var(--white-color);
+  }
+
+  .contact-submit:hover:not(:active) {
+    background-color: var(--malibu);
+  }
+
+  .contact-input:hover:not(:active) {
+    background-color: var(--anakiwa);
+  }
+
+  .contact-textarea:hover:not(:active) {
+    background-color: var(--anakiwa);
+  }
+
 }
 
 @media (max-width: 1620px) {
+
   .calendly-container {
     width: 80%;
   }
+
+  .contact-input {
+    width: 60%;
+  }
+
+  .contact-textarea {
+    width: 60%;
+  }
+
 }
 
 @media (max-width: 1520px) {
@@ -270,6 +298,14 @@
     width: 56%;
   }
 
+  .contact-input {
+    width: 70%;
+  }
+
+  .contact-textarea {
+    width: 70%;
+  }
+
 }
 
 
@@ -363,6 +399,14 @@
 
   .subscribe__heading {
     text-align: start;
+  }
+
+  .contact-input {
+    width: 80%;
+  }
+
+  .contact-textarea {
+    width: 80%;
   }
 
 }
@@ -520,6 +564,10 @@
     width: 100%;
   }
 
+  .events-preview__image {
+    max-width: 30%;
+  }
+
 }
 
 @media (max-width: 630px) {
@@ -566,6 +614,18 @@
 
   .calendly-container {
     background-image: url(../img/calendly-bg-612.png);
+  }
+
+  .events-preview {
+    flex-direction: column;
+  }
+
+  .events-preview__link {
+    flex-direction: column;
+  }
+
+  .events-preview__image {
+    max-width: 100%;
   }
 
 }
