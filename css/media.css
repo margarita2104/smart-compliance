@@ -650,3 +650,28 @@
   }
 
 }
+
+@media (max-width: 460px) {
+
+  .calendly__subtitle {
+    width: 50%;
+    margin-bottom: 60px;
+  }
+
+  .calendly-container {
+    padding: 40px 0 47px 30px;
+  }
+
+}
+
+@media (max-width: 375px) {
+
+  .calendly__subtitle {
+    width: 75%;
+  }
+
+  .calendly__subtitle {
+    margin-bottom: 35px;
+  }
+
+}
