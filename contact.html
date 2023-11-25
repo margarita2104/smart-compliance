@@ -129,7 +129,9 @@
                 <div class="row">
                     <div class="offset-md-2 col-md-8 col-12">
 
-                        <form class="contact-form flex" action="#" method="post" id="contactForm">
+                        <form class="contact-form flex" action="https://api.web3forms.com/submit" method="post" id="contactForm">
+                            <input type="hidden" name="access_key" value="29a52e3d-f429-488b-9b44-d707a341e372">
+
 
                             <input class="contact-input" type="text" id="Name" name="name" required placeholder="Name*">
 
@@ -141,7 +143,8 @@
 
                             <textarea class="contact-textarea" id="message" name="Message" rows="4" placeholder="Message"></textarea>
 
-                            <input class="contact-submit" type="submit" value="Send">
+                            <button class="contact-submit" type="submit" value="Send"> Send
+                            </button>
                         </form>
 
                     </div>
@@ -248,6 +251,7 @@
     <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
     <script type="text/javascript">(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
     </div>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
