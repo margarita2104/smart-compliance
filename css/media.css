@@ -260,6 +260,19 @@
 
 }
 
+@media (max-width: 1199px) {
+
+  .about-us__list {
+    margin-bottom: 50px;
+  }
+
+  .calendly-container {
+    width: 56%;
+  }
+
+}
+
+
 @media (max-width: 1147px) {
 
   .heading__global {
@@ -273,6 +286,10 @@
 
 
 @media (max-width: 1110px) {
+
+  .calendly-container {
+    width: 62%;
+  }
 
   .articles__item {
     width: calc((93% - (var(--gap) * 1)) / 2);
@@ -374,8 +391,24 @@
   }
 
 
+}
+
+@media (max-width: 896px) {
+
+  .calendly-container {
+    width: 80%;
+  }
 
 }
+
+@media (max-width: 778px) {
+
+  .calendly-container {
+    width: 90%;
+  }
+
+}
+
 
 @media (max-width: 767px) {
 
@@ -481,6 +514,13 @@
 }
 
 
+@media (max-width: 682px) {
+
+  .calendly-container {
+    width: 100%;
+  }
+
+}
 
 @media (max-width: 630px) {
 
@@ -512,10 +552,6 @@
     color: var(--blue-ribbon);
   }
 
-  .calendly-container {
-    width: 100%;
-  }
-
   .steps-wrapper {
     width: 60%;
   }
@@ -525,6 +561,15 @@
   }
 
 }
+
+@media (max-width: 612px) {
+
+  .calendly-container {
+    background-image: url(../img/calendly-bg-612.png);
+  }
+
+}
+
 
 @media (max-width: 520px) {
 
