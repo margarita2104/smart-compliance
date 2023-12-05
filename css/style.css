@@ -538,10 +538,16 @@ textarea, select {
     margin: 0 auto;
 }
 
+
+
 .accordion-item {
     /* border: 1px solid #ccc; */
     margin-bottom: 10px;
     border-radius: 4px;
+}
+
+.accordion__img {
+    max-width: 75%;
 }
 
 .accordion-button {

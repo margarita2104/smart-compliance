@@ -163,6 +163,10 @@
     width: 90%;
   }
 
+  .accordion__img {
+    max-width: 85%;
+}
+
 }
 
 @media (max-width: 1398px) {
@@ -305,6 +309,14 @@
   .contact-textarea {
     width: 70%;
   }
+
+  .accordion {
+    width: 100%;
+}
+
+.accordion__img {
+  max-width: 90%;
+}
 
 }
 
