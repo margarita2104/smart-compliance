@@ -526,18 +526,32 @@ textarea, select {
 /* services */
 
 .services__descr {
-    margin-bottom: 25px;
-    width: 35%;
+    margin-bottom: 50px;
+    width: 38%;
 }
-
 
 
 .accordion {
+    position: relative;
+    padding-right: 13%;
     display: inline-block;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
+.accordion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    margin-top: -20%;
+    left: 60%;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/accordion-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 
 .accordion-item {
@@ -546,9 +560,6 @@ textarea, select {
     border-radius: 4px;
 }
 
-.accordion__img {
-    max-width: 75%;
-}
 
 .accordion-button {
     display: flex;
@@ -1207,4 +1218,3 @@ textarea, select {
 .contact-submit:active {
     background-color: var(--blue-ribbon);
 }
-

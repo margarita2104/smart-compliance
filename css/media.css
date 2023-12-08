@@ -130,6 +130,10 @@
     width: 60%;
   }
 
+  .accordion__col::before {
+    left: 41%;
+  }
+
 }
 
 @media (max-width: 1520px) {
@@ -163,9 +167,6 @@
     width: 90%;
   }
 
-  .accordion__img {
-    max-width: 85%;
-}
 
 }
 
@@ -310,13 +311,6 @@
     width: 70%;
   }
 
-  .accordion {
-    width: 100%;
-}
-
-.accordion__img {
-  max-width: 90%;
-}
 
 }
 
@@ -392,12 +386,19 @@
   }
 
   .services__descr {
-    width: 100%;
+    width: 67%;
   }
 
   .accordion {
     width: 100%;
+    padding-right: 17%;
   }
+
+  .accordion::before {
+    margin-top: -19.5%;
+  }
+
+
 
   .learn-more__wrapper {
     min-height: 250px;
@@ -497,6 +498,10 @@
   }
 
   .panel__descr {
+    font-size: 14px;
+  }
+
+  .panel__item {
     font-size: 14px;
   }
 
