@@ -102,6 +102,10 @@
     color: var(--white-color);
   }
 
+  .subscription-link__body:hover {
+    border-bottom: 1px solid var(--malibu);
+  }
+
   .contact-submit:hover:not(:active) {
     background-color: var(--malibu);
   }
@@ -116,7 +120,28 @@
 
 }
 
+@media (max-width: 1730px) {
+
+  .hero__video {
+    width: 1730px;
+  }
+
+}
+
+
 @media (max-width: 1620px) {
+
+  .hero__video {
+    width: 1620px;
+  }
+
+  .hero__info {
+    padding-top: 100px;
+  }
+
+  .pages__hero {
+    padding-top: 380px;
+  }
 
   .calendly-container {
     width: 80%;
@@ -142,6 +167,14 @@
     background-image: url(../img/hero__background-1520.png);
   }
 
+  .hero__video {
+    width: 1520px;
+  }
+
+  .hero__container {
+    top: 80px;
+  }
+
   .articles__item {
     width: calc((93% - (var(--gap) * 1)) / 3);
   }
@@ -159,6 +192,10 @@
 
 @media (max-width: 1467px) {
 
+  .hero__video {
+    width: 1467px;
+  }
+
   .steps-wrapper {
     min-height: 312px;
   }
@@ -171,6 +208,7 @@
 }
 
 @media (max-width: 1398px) {
+
 
   .header__content {
     justify-content: end;
@@ -275,6 +313,10 @@
     background-image: url(../img/hero__background-1398.png);
   }
 
+  .hero__video {
+    width: 1398px;
+  }
+
   .calendly-container {
     width: 100%;
   }
@@ -295,6 +337,14 @@
 
 @media (max-width: 1199px) {
 
+  .hero__video {
+    width: 1199px;
+  }
+
+  .hero__info {
+    padding-top: 45px;
+  }
+
   .about-us__list {
     margin-bottom: 50px;
   }
@@ -309,6 +359,10 @@
 
   .contact-textarea {
     width: 70%;
+  }
+
+  .pages__hero {
+    padding-top: 270px;
   }
 
 
@@ -347,14 +401,24 @@
 
 }
 
+@media (max-width: 1074px) {
+  .hero__video {
+    width: 1074px;
+  }
+}
+
 @media (max-width: 991px) {
 
   .hero {
     background-image: url(../img/hero__background-991.png);
   }
 
+  .hero__video {
+    width: 991px;
+  }
+
   .hero__info {
-    padding-top: 247px;
+    padding-top: 80px;
     padding-bottom: 0;
   }
 
@@ -398,8 +462,6 @@
     margin-top: -19.5%;
   }
 
-
-
   .learn-more__wrapper {
     min-height: 250px;
     width: 45%;
@@ -422,12 +484,24 @@
     width: 80%;
   }
 
+  .pages__hero {
+    padding-top: 215px;
+}
+
 }
 
 @media (max-width: 914px) {
 
   .hero__info {
     padding-top: 368px;
+  }
+
+  .hero__video {
+    display: none;
+  }
+
+  .hero__container {
+    position: relative;
   }
 
   .hero__heading {

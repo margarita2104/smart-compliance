@@ -242,6 +242,10 @@ textarea, select {
     display: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
 
 
 /* 
@@ -286,6 +290,29 @@ textarea, select {
 
 
 /* hero  */
+
+/* #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+} */
+
+
+.hero__video {
+    position: relative;
+}
+
+.hero__container {
+    position: absolute;
+    top: 120px;
+    left: 3%;
+}
 
 
 .hero {
@@ -399,18 +426,26 @@ textarea, select {
 }
 
 .slide-1 {
-    background-image: url(../img/slider-1.jpg);
+    background-image: url(../img/CRYPTO2030-YT.png);
 }
 
 .slide-2 {
-    background-image: url(../img/slider-2.jpg);
+    background-image: url(../img/slider-1.jpg);
 }
 
 .slide-3 {
-    background-image: url(../img/slider-3.jpg);
+    background-image: url(../img/8e2000d50bff9e5e114e5ff452c31616.jpg.avif);
 }
 
 .slide-4 {
+    background-image: url(../img/slider-2.jpg);
+}
+
+.slide-5 {
+    background-image: url(../img/slider-3.jpg);
+}
+
+.slide-6 {
     background-image: url(../img/slider-4.jpg);
 }
 
@@ -1121,6 +1156,23 @@ textarea, select {
 
 .past-events {
     border-top: 0.5px solid var(--cerulean);
+}
+
+.upcoming-events__row {
+    margin-bottom: 60px;
+}
+
+.subscription-link__body {
+    outline: none;
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.subscription-link__body:focus-visible {
+    color: var(--blue-ribbon);
+}
+
+.subscription-link__body:active {
+    color: var(--blue-ribbon);
 }
 
 /* events-item */

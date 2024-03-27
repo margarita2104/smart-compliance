@@ -107,6 +107,9 @@
     <main class="main">
 
         <section class="hero">
+            <video id="background-video" class="hero__video" autoplay loop muted>
+                <source src="./animation/s-compl_1.mp4" type="video/mp4">
+            </video>
             <div class="container hero__container">
                 <div class="row">
                     <div class="col-xl-4 col-md-6 col-sm-7 hero__content">
@@ -136,6 +139,22 @@
                     Upcoming events
                 </h2>
 
+                <div class="row upcoming-events__row">
+                    <div class="col-xl-8 offset-xl-2 col-12">
+
+                        <h3 class="events-preview__heading subtitle__global text-center">
+                            Currently, there are no upcoming events
+                        </h3>
+                        <p class="events-preview__descr descr__global text-center">
+                            Please check back later for updates or <b class="text_bold"><a href="http://eepurl.com/ioqyWo" target="_blank" class="subscription-link__body">subscribe to our newsletter</a></b>  to receive notifications about future events </p>
+                    </div>
+
+                </div>
+
+                <h2 class="events__heading heading__global">
+                    Past events
+                </h2>
+
                 <div class="row">
                     <div class="col-xl-8 offset-xl-2 col-12">
                         <ul class="events-list list-reset">
@@ -156,11 +175,10 @@
                                 </article>
                             </li>
 
-
                         </ul>
-
                     </div>
                 </div>
+
             </div>
         </section>
 
