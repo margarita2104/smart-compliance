@@ -85,6 +85,10 @@
     color: var(--azure-radiance);
   }
 
+  .blog__link:hover {
+    border-bottom: 0.5px solid var(--malibu);
+  }
+
   .archive__link:hover {
     border-bottom: 0.5px solid var(--malibu);
   }
@@ -486,7 +490,7 @@
 
   .pages__hero {
     padding-top: 215px;
-}
+  }
 
 }
 

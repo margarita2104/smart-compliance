@@ -956,8 +956,26 @@ textarea, select {
     margin-bottom: 25px;
 }
 
+.blog__video {
+    margin-bottom: 25px;
+}
+
 .blog__row {
     margin-top: 40px;
+}
+
+.blog__link {
+    color: var(--midnight);
+    outline: none;
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.blog__link:focus-visible {
+    color: var(--blue-ribbon);
+}
+
+.blog__link:active {
+    color: var(--blue-ribbon);
 }
 
 .blog__img {
