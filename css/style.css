@@ -1288,3 +1288,40 @@ textarea, select {
 .contact-submit:active {
     background-color: var(--blue-ribbon);
 }
+
+/* cookie consent */
+
+#cc-main {
+    --cc-font-family: 'PTRootUIWebBold', 'PT Root UI', sans-serif;
+
+    /** Change button primary color to black **/
+    --cc-btn-primary-bg: #D5D5D5;
+    --cc-btn-primary-border-color: #000000;
+    --cc-btn-primary-hover-bg: #04597B;
+    --cc-btn-primary-hover-border-color: #04597B;
+
+    /** Also make toggles the same color as the button **/
+    --cc-toggle-on-bg: var(--cc-btn-primary-bg);
+
+    /** Make the buttons a bit rounder **/
+    --cc-btn-border-radius: 10px;
+}
+
+.cm__texts {
+    color: var(--midnight);
+}
+
+#cc-main .cm__btn {
+    background-color: var(--azure-radiance);
+    border: 1px solid var(--azure-radiance);
+}
+
+#cc-main .cm__btn:focus-visible {
+    background-color: var(--blue-ribbon);
+    border: 1px solid var(--blue-ribbon);
+}
+
+#cc-main .cm__btn:active {
+    background-color: var(--blue-ribbon);
+    border: 1px solid var(--blue-ribbon);
+}

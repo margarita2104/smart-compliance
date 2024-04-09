@@ -122,6 +122,12 @@
     background-color: var(--anakiwa);
   }
 
+  #cc-main .cm__btn:hover {
+    background-color: var(--malibu);
+    border: 1px solid var(--malibu);
+
+}
+
 }
 
 @media (max-width: 1730px) {
@@ -490,6 +496,10 @@
 
   .pages__hero {
     padding-top: 215px;
+  }
+
+  .blog__video {
+    width: 100%;
   }
 
 }
