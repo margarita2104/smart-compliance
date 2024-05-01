@@ -132,14 +132,6 @@
 
 @media (max-width: 1620px) {
 
-  .hero__info {
-    padding-top: 100px;
-  }
-
-  .pages__hero {
-    padding-top: 380px;
-  }
-
   .calendly-container {
     width: 80%;
   }
@@ -323,10 +315,6 @@
 
 @media (max-width: 1199px) {
 
-  .hero__info {
-    padding-top: 45px;
-  }
-
   .about-us__list {
     margin-bottom: 50px;
   }
@@ -344,7 +332,7 @@
   }
 
   .pages__hero {
-    padding-top: 270px;
+    padding-top: 40%;
   }
 
 
@@ -387,11 +375,6 @@
 
   .hero {
     background-image: url(../img/hero__background-991.png);
-  }
-
-  .hero__info {
-    padding-top: 80px;
-    padding-bottom: 0;
   }
 
   .hero__heading {
@@ -456,10 +439,6 @@
     width: 80%;
   }
 
-  .pages__hero {
-    padding-top: 215px;
-  }
-
   .blog__video {
     width: 100%;
   }
@@ -468,10 +447,6 @@
 
 @media (max-width: 914px) {
 
-  .hero__info {
-    padding-top: 368px;
-  }
-
   .hero__video {
     display: none;
   }
@@ -479,6 +454,10 @@
   .hero__container {
     position: relative;
   }
+
+  .pages__hero {
+    padding-top: 70%;
+}
 
   .hero__heading {
     display: none;
