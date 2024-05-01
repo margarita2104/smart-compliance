@@ -126,24 +126,11 @@
     background-color: var(--malibu);
     border: 1px solid var(--malibu);
 
-}
-
-}
-
-@media (max-width: 1730px) {
-
-  .hero__video {
-    width: 1730px;
   }
 
 }
-
 
 @media (max-width: 1620px) {
-
-  .hero__video {
-    width: 1620px;
-  }
 
   .hero__info {
     padding-top: 100px;
@@ -177,10 +164,6 @@
     background-image: url(../img/hero__background-1520.png);
   }
 
-  .hero__video {
-    width: 1520px;
-  }
-
   .hero__container {
     top: 80px;
   }
@@ -202,9 +185,6 @@
 
 @media (max-width: 1467px) {
 
-  .hero__video {
-    width: 1467px;
-  }
 
   .steps-wrapper {
     min-height: 312px;
@@ -323,10 +303,6 @@
     background-image: url(../img/hero__background-1398.png);
   }
 
-  .hero__video {
-    width: 1398px;
-  }
-
   .calendly-container {
     width: 100%;
   }
@@ -346,10 +322,6 @@
 }
 
 @media (max-width: 1199px) {
-
-  .hero__video {
-    width: 1199px;
-  }
 
   .hero__info {
     padding-top: 45px;
@@ -411,20 +383,10 @@
 
 }
 
-@media (max-width: 1074px) {
-  .hero__video {
-    width: 1074px;
-  }
-}
-
 @media (max-width: 991px) {
 
   .hero {
     background-image: url(../img/hero__background-991.png);
-  }
-
-  .hero__video {
-    width: 991px;
   }
 
   .hero__info {

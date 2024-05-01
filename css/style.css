@@ -306,6 +306,7 @@ textarea, select {
 
 .hero__video {
     position: relative;
+    max-width: 100%;
 }
 
 .hero__container {
