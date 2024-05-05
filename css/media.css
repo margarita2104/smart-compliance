@@ -315,6 +315,11 @@
 
 @media (max-width: 1199px) {
 
+
+  .hero__info {
+    padding-top: 10%;
+  }
+
   .about-us__list {
     margin-bottom: 50px;
   }
@@ -379,6 +384,10 @@
 
   .hero__heading {
     border-bottom: 0;
+  }
+
+  .hero__info {
+    padding-top: 20%;
   }
 
   .hero__descr {
@@ -455,9 +464,16 @@
     position: relative;
   }
 
+  .hero__info {
+    padding-top: 66%;
+  }
+
+
   .pages__hero {
     padding-top: 70%;
-}
+  }
+
+
 
   .hero__heading {
     display: none;
