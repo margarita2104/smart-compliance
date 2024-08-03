@@ -427,27 +427,35 @@ textarea, select {
 }
 
 .slide-1 {
-    background-image: url(../img/CRYPTO2030-YT.png);
+    background-image: url(../swiper_img/blog-airdrop.jpg);
 }
 
 .slide-2 {
-    background-image: url(../img/slider-1.jpg);
+    background-image: url(../swiper_img/tokens-mica.JPG);
 }
 
 .slide-3 {
-    background-image: url(../img/8e2000d50bff9e5e114e5ff452c31616.jpg.avif);
+    background-image: url(../swiper_img/CRYPTO2030-YT-regulation.png);
 }
 
 .slide-4 {
-    background-image: url(../img/slider-2.jpg);
+    background-image: url(../swiper_img/davos-recap.jpg);
 }
 
 .slide-5 {
-    background-image: url(../img/slider-3.jpg);
+    background-image: url(../swiper_img/cointelegraph.jpg.avif);
 }
 
 .slide-6 {
-    background-image: url(../img/slider-4.jpg);
+    background-image: url(../swiper_img/new-challenged.jpg);
+}
+
+.slide-7 {
+    background-image: url(../swiper_img/work-permit.jpg);
+}
+
+.slide-8 {
+    background-image: url(../swiper_img/slider-4.jpg);
 }
 
 .swiper__content {
@@ -953,6 +961,10 @@ textarea, select {
 
 /* blog page  */
 
+.blog__wrapper {
+    margin-bottom: 20px;
+}
+
 .blog__descr {
     margin-bottom: 25px;
 }
@@ -966,17 +978,17 @@ textarea, select {
 }
 
 .blog__link {
-    color: var(--midnight);
+    color: var(--blue-ribbon);
     outline: none;
     transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .blog__link:focus-visible {
-    color: var(--blue-ribbon);
+    color: var(--midnight);
 }
 
 .blog__link:active {
-    color: var(--blue-ribbon);
+    color: var(--midnight);
 }
 
 .blog__img {
@@ -1033,6 +1045,15 @@ textarea, select {
 
 .archive__link:active {
     color: var(--blue-ribbon);
+}
+
+.blog__airdrop {
+    height: 100%;
+}
+
+.airdrop_descr {
+    padding: 35px 35px;
+    background-color: #c5dce9;
 }
 
 /* educational portal */
