@@ -426,6 +426,10 @@ textarea, select {
     background-size: cover;
 }
 
+.slide-10 {
+    background-image: url(../swiper_img/webinar-liquidity.jpg);
+}
+
 .slide-9 {
     background-image: url(../swiper_img/whitepaper.jpg);
 }
@@ -1073,6 +1077,15 @@ textarea, select {
 
 .educational-item:not(:last-child) {
     margin-bottom: 40px;
+}
+
+.educational-wrapper3 {
+    padding-top: 215px;
+    border-radius: 5px;
+    background-image: url("../img/educational-bg-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .educational-wrapper2 {
