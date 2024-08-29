@@ -426,35 +426,39 @@ textarea, select {
     background-size: cover;
 }
 
-.slide-1 {
-    background-image: url(../swiper_img/blog-airdrop.jpg);
-}
-
-.slide-2 {
-    background-image: url(../swiper_img/tokens-mica.JPG);
-}
-
-.slide-3 {
-    background-image: url(../swiper_img/CRYPTO2030-YT-regulation.png);
-}
-
-.slide-4 {
-    background-image: url(../swiper_img/davos-recap.jpg);
-}
-
-.slide-5 {
-    background-image: url(../swiper_img/cointelegraph.jpg.avif);
-}
-
-.slide-6 {
-    background-image: url(../swiper_img/new-challenged.jpg);
-}
-
-.slide-7 {
-    background-image: url(../swiper_img/work-permit.jpg);
+.slide-9 {
+    background-image: url(../swiper_img/whitepaper.jpg);
 }
 
 .slide-8 {
+    background-image: url(../swiper_img/blog-airdrop.jpg);
+}
+
+.slide-7 {
+    background-image: url(../swiper_img/tokens-mica.JPG);
+}
+
+.slide-6 {
+    background-image: url(../swiper_img/CRYPTO2030-YT-regulation.png);
+}
+
+.slide-5 {
+    background-image: url(../swiper_img/davos-recap.jpg);
+}
+
+.slide-4 {
+    background-image: url(../swiper_img/cointelegraph.jpg.avif);
+}
+
+.slide-3 {
+    background-image: url(../swiper_img/new-challenged.jpg);
+}
+
+.slide-2 {
+    background-image: url(../swiper_img/work-permit.jpg);
+}
+
+.slide-1 {
     background-image: url(../swiper_img/slider-4.jpg);
 }
 
@@ -1071,7 +1075,16 @@ textarea, select {
     margin-bottom: 40px;
 }
 
-.educational-wrapper {
+.educational-wrapper2 {
+    padding-top: 215px;
+    border-radius: 5px;
+    background-image: url("../img/educational-bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.educational-wrapper1 {
     padding-top: 215px;
     border-radius: 5px;
     background-image: url("../img/educational-bg-1.jpg");
