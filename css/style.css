@@ -426,6 +426,14 @@ textarea, select {
     background-size: cover;
 }
 
+.slide-12 {
+    background-image: url(../swiper_img/key-requirements.webp);
+}
+
+.slide-11 {
+    background-image: url(../swiper_img/tokenization-in-salvador.jpg);
+}
+
 .slide-10 {
     background-image: url(../swiper_img/webinar-liquidity.jpg);
 }
@@ -965,6 +973,10 @@ textarea, select {
 
 .blog-preview__name {
     margin-bottom: 0;
+}
+
+.blog-preview-two {
+    margin-bottom: 15px;
 }
 
 /* blog page  */
