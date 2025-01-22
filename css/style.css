@@ -426,6 +426,10 @@ textarea, select {
     background-size: cover;
 }
 
+.slide-13 {
+    background-image: url(../swiper_img/davos-web3-preview.jpeg);
+}
+
 .slide-12 {
     background-image: url(../swiper_img/key-requirements.webp);
 }
